@@ -1,9 +1,9 @@
 #include <iostream>
-#include <math.h>
+
 using namespace std;
 float ObtenhaMontante(float capitalInicial, float taxaJuro, float prazo)
 {
-	return capitalInicial * pow((1+taxaJuro),prazo);
+	return capitalInicial *pow((1+taxaJuro),prazo);
 }
 int main()
 {
