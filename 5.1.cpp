@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <math.h>
 using namespace std;
 float ObtenhaMontante(float capitalInicial, float taxaJuro, float prazo)
 {
